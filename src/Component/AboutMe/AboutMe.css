@@ -1,0 +1,88 @@
+.containerAbout {
+  display: flex;
+  margin: 3px;
+  padding: 5px;
+  width: 100%;
+  background-color: rgba(204, 52, 52, 0.082); /* Color negro con alpha 0.7 */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Alineación a la izquierda */
+  /*border: 2px solid red;*/
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Ancho del contenedor de información */
+  padding: 20px;
+  margin: 10px;
+}
+
+.personal-info {
+  margin-left: 20px; /* Margen izquierdo para separar del borde */
+}
+
+.info-item {
+  margin-bottom: 10px; /* Espacio entre cada ítem de información */
+}
+
+.divimagen {
+  display: flex;
+  justify-content: flex-end; /* Alineación a la derecha */
+  align-items: center;
+  width: 50%; /* Ancho del contenedor de la imagen */
+}
+
+.divimagen img {
+  max-width: 90%; /* Ajustar la imagen para que no se salga del contenedor */
+  width: auto;
+  height: auto;
+  /*border: 2px solid greenyellow;*/
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los iconos */
+.icon {
+  margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.icon.user {
+  color: #ff5252; /* Rojo */
+}
+
+.icon.graduation {
+  color: #536dfe; /* Azul */
+}
+
+.icon.envelope {
+  color: #ffab40; /* Naranja */
+}
+
+.icon.whatsapp {
+  color: #64dd17; /* Verde */
+}
+
+.icon.html {
+  color: #e91e63; /* Rosa */
+}
+
+.icon.js {
+  color: #ffeb3b; /* Amarillo */
+}
+
+.icon.server {
+  color: #f50057; /* Fucsia */
+}
+
+.icon.database {
+  color: #00bcd4; /* Cyan */
+}
+
+.icon.react {
+  color: #03a9f4; /* Azul claro */
+}
+
+.icon.nodejs {
+  color: #8bc34a; /* Verde lima */
+}
