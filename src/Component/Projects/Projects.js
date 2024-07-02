@@ -40,16 +40,6 @@ const Projects = () => {
       githubLink: 'https://github.com/CunGemcrak/Zapateria-Cun',
      
       img: stiloZap
-    },
-    {
-      
-      
-      id: 5,
-      title: 'Sistema de Gestión de Inventario',
-      description: 'Desarrollo de un sistema web para la gestión de inventario de una tienda de calzado. Utilización de React, Node.js y PostgreSQL.',
-      githubLink: 'https://github.com/tuusuario/proyecto-inventario',
-   
-      img: stiloZap
     }
     // Agrega más proyectos según sea necesario
   ];
