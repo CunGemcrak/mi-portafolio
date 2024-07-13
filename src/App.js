@@ -7,7 +7,7 @@ import Contact from './Component/Contact/Contact';
 import Home from './Component/Home/Home';
 
 function App() {
-  return <div className="App">
+  return <div className="App bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
     <Router>
         <Menu />
         <Routes>
